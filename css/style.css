@@ -1,0 +1,146 @@
+@import url(.//fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* text-decoration: none; */
+  background-image: url(../images/blue.png);
+}
+.container {
+  max-width: 1920px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu-item {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.img {
+  margin-left: 373px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.nav-menu-item a {
+  color: #a1b5bb;
+  transition: 0.3s;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.nav-button {
+  background-color: #145e76;
+  color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 266px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-family: "Inter";
+}
+.badge {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  margin-top: 40px;
+  font-weight: 700;
+}
+p {
+  color: #849499;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #ffa63a;
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  color: white;
+  margin-left: 10px;
+}
+
+.profile {
+  /* position: relative; */
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 10px;
+}
+
+.testimonial {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: -300px;
+}
+.bratan-information {
+  max-width: 300px;
+  margin-top: -520px;
+  margin-left: 700px;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.stat h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: "Inter";
+  color: #08546c;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #08546c;
+}
