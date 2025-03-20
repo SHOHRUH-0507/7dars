@@ -22,7 +22,7 @@ body {
   gap: 30px;
 }
 .img {
-  margin-left: 373px;
+  margin-left: 273px;
 }
 .nav-menu {
   display: flex;
@@ -52,6 +52,7 @@ body {
   align-items: center;
   padding: 50px;
   font-family: "Inter";
+  margin: 0px 20px;
 }
 .badge {
   padding: 10px 20px;
@@ -72,7 +73,9 @@ p {
   margin-top: 30px;
   font-weight: 400;
 }
-
+.musa {
+  margin-top: 150px;
+}
 .buttons {
   margin-top: 50px;
   font-weight: 600;
